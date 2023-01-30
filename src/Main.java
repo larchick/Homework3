@@ -141,6 +141,23 @@ public class Main {
 
     public static void task7() {
         System.out.println("Задача 7");
+
+        byte initialWeight = 7;
+        short gramWight = 1000;
+        int totalWeightSport = initialWeight*gramWight;
+        short loss = 250;
+        short bigLoss = 500;
+
+        int dayLoss = totalWeightSport/loss;
+        System.out.println(dayLoss+ " дней уйдет на похудение, если спортсмен будет терять каждый день по " +loss+ " грамм.");
+
+        int dayBigLoss = totalWeightSport/bigLoss;
+        System.out.println(dayBigLoss+ " дней уйдет на похудение, если спортсмен будет терять каждый день по " +bigLoss+ " грамм.");
+
+        int sumDay = dayLoss+dayBigLoss;
+        byte numberSum = 2;
+        int numberDay = sumDay/numberSum;
+        System.out.println(numberDay+ " день может потребоваться в среднем, чтобы добиться результата похудения.");
     }
 
     public static void task8() {
