@@ -70,6 +70,26 @@ public class Main {
 
     public static void task4() {
         System.out.println("Задача 4");
+        byte  bottle = 16;
+        byte time = 2;
+        int minute = bottle/time;
+        byte gap = 20;
+        int result = minute * gap ;
+        System.out.println("За " + gap + " минут машина произвела " + result + " штук бутылок");
+
+        byte day = 24;
+        int timeDay = day * 60;
+        int bottleDay = timeDay*minute;
+        System.out.println("За сутки машина произвела " + bottleDay + " штук бутылок");
+
+        int threeDays = timeDay*3;
+        int bottleThreeDays = threeDays*minute;
+        System.out.println("За трое суток машина произвела " + bottleThreeDays + " штук бутылок");
+
+        int month = timeDay*31;
+        int bottleMonth = month*minute;
+        System.out.println("За 1 месяц машина произвела " + bottleMonth + " штук бутылок");
+
     }
 
     public static void task5() {
