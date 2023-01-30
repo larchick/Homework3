@@ -108,6 +108,35 @@ public class Main {
 
     public static void task6() {
         System.out.println("Задача 6");
+
+       byte banana = 5;
+       byte weightBanana = 80;
+       int totalBanana = banana * weightBanana;
+
+       short milk = 200;
+       byte weightMilk = 105;
+       byte milliliterMilk = 100;
+       int weightMilliliter = milk/milliliterMilk;
+       int totalMilk = weightMilk*weightMilliliter;
+
+
+       byte ice = 2;
+       byte weightIce = 100;
+       int totalIce = ice*weightIce;
+
+       byte eggs = 4;
+       byte weightEgs = 70;
+       int totalEgs = eggs*weightEgs;
+
+       int weightBreakfast = totalBanana+totalEgs+totalIce+totalMilk;
+
+       short kg = 1000;
+
+        float kgBreakfast = (float) weightBreakfast / kg;
+
+        System.out.println("Вес спортзавтрака в граммах - " +weightBreakfast+ ". Вес спортзавтрака в килограммах - " +kgBreakfast);
+
+
     }
 
     public static void task7() {
