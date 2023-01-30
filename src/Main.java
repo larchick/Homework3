@@ -162,5 +162,31 @@ public class Main {
 
     public static void task8() {
         System.out.println("Задача 8");
+        byte percent = 10;
+        byte number = 100;
+        float increase = (float) percent/number;
+        byte year = 12;
+
+
+        int salaryMasha = 67760;
+        int increaseMasha = (int) (salaryMasha*increase);
+        int totalSalary = salaryMasha+increaseMasha;
+        int differenceMasha = (totalSalary*year)-(salaryMasha*year);
+
+
+        System.out.println("Маша теперь получает " +totalSalary+ " рублей. Годовой доход вырос на " +differenceMasha);
+
+
+        int salaryDenis = 83690;
+        int increaseDenis = (int) (salaryDenis*increase);
+        int totalSalaryDenis = salaryDenis+increaseDenis;
+        int differenceDenis = (totalSalaryDenis*year)-(salaryDenis*year);
+        System.out.println("Денис теперь получает " +totalSalaryDenis+ " рублей. Годовой доход вырос на " +differenceDenis);
+
+        int salaryCris = 76230;
+        int increaseCris = (int) (salaryCris*increase);
+        int totalSalaryCris = salaryCris+increaseCris;
+        int differenceCris = (totalSalaryCris*year)-(salaryCris*year);
+        System.out.println("Кристина теперь получает " +totalSalaryCris+ " рублей. Годовой доход вырос на " +differenceCris);
     }
 }
