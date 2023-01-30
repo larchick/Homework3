@@ -9,35 +9,76 @@ public class Main {
         task7();
         task8();
     }
-    public static void task1 () {
 
+    public static void task1() {
+        System.out.println ("Задача 1");
+
+        byte b = 22;
+        System.out.println(b);
+
+        short c = 15000;
+        System.out.println(c);
+
+        int a = 40000;
+        System.out.println(a);
+
+        long d = 365L;
+        System.out.println(d);
+
+        float e = 0.75f;
+        System.out.println(e);
+
+        double f = 1.01210885;
+        System.out.println(f);
     }
 
     public static void task2 () {
+        System.out.println ("Задача 2");
+
+        byte k = 67;
+        System.out.println(k);
+
+        short m = -159;
+        System.out.println(m);
+
+        short n = 569;
+        System.out.println(n);
+
+        int z = 27897;
+        System.out.println(z);
+
+        long t = 987678965549L;
+        System.out.println(t);
+
+        float h = 2.786F;
+        System.out.println(h);
+
+        float r = 27.12f;
+        System.out.println(r);
+    }
+
+    public static void task3() {
+        System.out.println ("Задача 3");
 
     }
 
-    public static void task3 () {
-
+    public static void task4() {
+        System.out.println ("Задача 4");
     }
 
-    public static void task4 () {
-
+    public static void task5() {
+        System.out.println ("Задача 5");
     }
 
-    public static void task5 () {
-
+    public static void task6() {
+        System.out.println ("Задача 6");
     }
 
-    public static void task6 () {
-
+    public static void task7() {
+        System.out.println ("Задача 7");
     }
 
-    public static void task7 () {
-
-    }
-
-    public static void task8 () {
-
+    public static void task8() {
+        System.out.println ("Задача 8");
     }
 }
