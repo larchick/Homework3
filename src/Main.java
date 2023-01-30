@@ -94,6 +94,16 @@ public class Main {
 
     public static void task5() {
         System.out.println("Задача 5");
+        byte white = 2;
+        byte brown = 4;
+        byte total = 120;
+        int sumColor = white + brown;
+        int oneClass = total/sumColor;
+        int totalWhite = oneClass * white;
+        int totalBrown = oneClass * brown;
+
+        System.out.println("В школе, где " + oneClass + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
+
     }
 
     public static void task6() {
