@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void task1() {
-        System.out.println ("Задача 1");
+        System.out.println("Задача 1");
 
         byte b = 22;
         System.out.println(b);
@@ -32,8 +32,8 @@ public class Main {
         System.out.println(f);
     }
 
-    public static void task2 () {
-        System.out.println ("Задача 2");
+    public static void task2() {
+        System.out.println("Задача 2");
 
         byte k = 67;
         System.out.println(k);
@@ -58,27 +58,33 @@ public class Main {
     }
 
     public static void task3() {
-        System.out.println ("Задача 3");
-
+        System.out.println("Задача 3");
+        byte firstTeacher = 23;
+        byte secondTeacher = 27;
+        byte thirdTeacher = 30;
+        short sheets = 480;
+        int totalStudents = firstTeacher + secondTeacher + thirdTeacher;
+        int sheetsEach = sheets/totalStudents;
+        System.out.println("На каждого ученика расчитано " + sheetsEach + " листов бумаги");
     }
 
     public static void task4() {
-        System.out.println ("Задача 4");
+        System.out.println("Задача 4");
     }
 
     public static void task5() {
-        System.out.println ("Задача 5");
+        System.out.println("Задача 5");
     }
 
     public static void task6() {
-        System.out.println ("Задача 6");
+        System.out.println("Задача 6");
     }
 
     public static void task7() {
-        System.out.println ("Задача 7");
+        System.out.println("Задача 7");
     }
 
     public static void task8() {
-        System.out.println ("Задача 8");
+        System.out.println("Задача 8");
     }
 }
